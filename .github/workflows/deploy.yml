@@ -10,6 +10,6 @@ jobs:
   My-first-CICD-Job:
     runs-on: ubuntu-latest
 
-  steps:
-    - name: simple-web
-      run: acho "This is the first cicd step"
+    steps:
+      - name: simple-web
+        run: acho "This is the first cicd step"
