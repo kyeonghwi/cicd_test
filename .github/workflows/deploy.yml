@@ -26,7 +26,13 @@ jobs:
         run: |
           ls -al
           cat test.txt
+
       - name: Github Variables 사용하기
         run: |
           echo $GITHUB_SHA
           echo $GITHUB_REPOSITORY
+
+      - name: Github Secret Variables 사용하기
+        run: |
+          echo $MY_ENV_NAME
+          echo $MY_ENV_PASSWORD
